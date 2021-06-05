@@ -1,0 +1,119 @@
+body{
+    background-color: #323a45;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100px;
+    height: 70px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    margin-left : 20%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding: 15px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 2.7%;
+}
+
+.btn1{
+    color: white;
+    font-size: 20px;
+    width: 70px;
+
+}
+
+.btn2{
+    color: white;
+    margin-top: -8px;
+    padding-top : 7px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    height: 30px;
+    border : 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(138, 136, 136, 0.3);
+    
+}
+
+section{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+span{
+    color: rgb(132, 216, 208);
+}
+
+.space{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    outline-style : none;
+    border: 1px solid white;
+    padding : 15px;
+    width: 350px;
+    margin-top: -5px;
+    border-radius: 5px;
+}
+
+.btn3{
+    margin-left: 2%;
+    margin-top: -2px;
+    padding : 10px;
+    font-size: 20px;
+    border : 1px solid none;
+    border-radius: 5px;
+    background: linear-gradient(100deg, rgb(72, 182, 171), rgb(139, 125, 190));
+}
+
+h2{
+    margin-top: 3%;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+aside img{
+    width: 700px;
+    height: 600px;
+    margin-left: 5%;
+}
